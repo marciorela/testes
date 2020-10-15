@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace webapi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("v1/product")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -34,6 +34,13 @@ namespace webapi.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        [HttpPut("{id}")]
+        [Route("")]
+        public IActionResult Put(int id, [FromBody]Produto produto)
+        {
+            return new ContentResult() { Content = $"{id} de Teste. Descricao: {produto.Descricao}" };
         }
     }
 }
