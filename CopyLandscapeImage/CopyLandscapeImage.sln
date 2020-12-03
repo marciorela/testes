@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyLandscapeImage", "CopyLandscapeImage\CopyLandscapeImage.csproj", "{15BEE21E-083B-4C48-BC00-0365B9F3ED6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15BEE21E-083B-4C48-BC00-0365B9F3ED6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BEE21E-083B-4C48-BC00-0365B9F3ED6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BEE21E-083B-4C48-BC00-0365B9F3ED6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BEE21E-083B-4C48-BC00-0365B9F3ED6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2213A4E7-C5B5-4A68-88B8-5E84D860A1A6}
+	EndGlobalSection
+EndGlobal
